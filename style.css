@@ -1,8 +1,58 @@
-main {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-	height: 100vh;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 0;
+  height: 100vh;
+
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+
+  background: #444;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 400px;
+  height: 400px;
+  padding: 2rem;
+
+  text-align: center;
+  font-size: 1.2rem;
+
+  background: #5ab;
+  border: #fff solid 4px;
+}
+
+#author {
+  width: 100%;
+
+  color: #ff4;
+  text-align: right;
+}
+
+#button {
+  padding: .5rem 1rem;
+
+  background: #ab7; 
+  border: none;
+  border: #367 1px solid;
+  border-radius: 5px;
+}
+ #quote {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   width: 360px;
+   height: 300px;
+ }
