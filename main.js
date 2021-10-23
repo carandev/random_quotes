@@ -25,7 +25,7 @@ const quotes = {
   'Abraham Lincoln': 'Ningún hombre es lo bastante bueno para gobernar a otros sin su consentimiento',
   'Mahatma Gandhi': 'Todo lo que se come sin necesidad se roba al estómago de los pobres',
   'Marilyn Monroe': 'Vivir sola es como estar en una fiesta donde nadie te hace caso'
-}
+};
 
 const quote_choose = () => {
   let number_choice = parseInt(Math.random()*Object.keys(quotes).length);
@@ -35,5 +35,6 @@ const quote_choose = () => {
   $author.innerHTML = `${Object.keys(quotes)[number_choice]}`;
 }
 
-window.addEventListener('load', quote_choose)
+window.addEventListener('load', quote_choose);
+
 $button.addEventListener('click', quote_choose);
